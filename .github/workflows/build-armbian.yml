@@ -14,9 +14,9 @@ on:
         required: false
         default: "focal"
       set_board:
-        description: "BOARD: lepotato / odroidn2"
+        description: "BOARD: s905x2 / E900V22C"
         required: false
-        default: "lepotato"
+        default: "s905x2"
   #schedule:
     #- cron: "0 17 * * 0"
 
