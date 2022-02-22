@@ -86,7 +86,7 @@ AMLOGIC_MODEL_LIST="
 25:T95Z Plus:s912:meson-gxm-t95z-plus.dtb:u-boot-s905x-s912.bin:NA:NA:3G+32G,Octa-Core,2.4/5.8G Dual-Band Wi-Fi/10-1000M LAN 64Bit BT4.0
 
 # Amlogic G12A Family
-31:X96 Max 4GB:s905x2:meson-g12a-x96-max.dtb:u-boot-x96max.bin:/lib/u-boot/x96max-u-boot.bin.sd.bin:NA:4C@1908Mhz,4GB Mem,1Gb Net
+31:X96 Max 4GB:s905x2:meson-g12a-u200.dtb:u-boot-x96max.bin:/lib/u-boot/u-boot-u200.bin.sd.bin:NA:4C@1908Mhz,4GB Mem,1Gb Net
 32:X96 Max 2GB:s905x2:meson-g12a-x96-max-rmii.dtb:u-boot-x96max.bin:/lib/u-boot/x96max-u-boot.bin.sd.bin:NA:4C@1908Mhz,2GB Mem,100M Net
 33:MECOOL KM3 4G:s905x2:meson-g12a-sei510.dtb:u-boot-x96max.bin:/lib/u-boot/x96max-u-boot.bin.sd.bin:NA:4C@1908Mhz,4+64G/128G,2.4G/5G WiFi,Bluetooth 4.1,100M Net
 
