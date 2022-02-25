@@ -1,5 +1,12 @@
-source /etc/network/interfaces.d/*
 # Network is managed by Network manager
 auto eth0
-iface eth0 inet dhcp
-        hwaddress ether 12:34:56:78:9A:BC
+ iface eth0 inet manual
+
+auto macvlan
+iface macvlan inet static
+ address 192.168.11.200
+ netmask 255.255.255.0
+ gateway 192.168.11.1
+ dns-nameservers 192.168.11.1
+ pre-up ip link add macvlan link eth0 type macvlan mode bridge
+ post-down ip link del macvlan link eth0 type macvlan mode bridge
