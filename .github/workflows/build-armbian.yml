@@ -14,7 +14,7 @@ on:
         required: false
         default: "focal"
       set_board:
-        description: "BOARD: lepotato / odroidn2"
+        description: "BOARD: lepotato / radxa zero"
         required: false
         default: "lepotato"
       more_settings:
