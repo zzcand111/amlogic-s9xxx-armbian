@@ -242,10 +242,10 @@ copy_files() {
         ANDROID_UBOOT=""
         AMLOGIC_SOC="s905x2"
         ;;
-    s905x2-km3)
-        FDTFILE="meson-g12a-sei510.dtb"
-        UBOOT_OVERLOAD="u-boot-x96max.bin"
-        MAINLINE_UBOOT="/lib/u-boot/x96max-u-boot.bin.sd.bin"
+    s905x2-E900V22C)
+        FDTFILE="meson-g12a-e900v22c.dtb"
+        UBOOT_OVERLOAD="e900v22c-u-boot.bin"
+        MAINLINE_UBOOT="/lib/u-boot/e900v22c-u-boot.bin.sd.bin"
         ANDROID_UBOOT=""
         AMLOGIC_SOC="s905x2"
         ;;
