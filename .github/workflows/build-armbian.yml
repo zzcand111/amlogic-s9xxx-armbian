@@ -75,7 +75,7 @@ jobs:
           cd build/
           sudo chmod +x compile.sh
           sudo ./compile.sh BOARD=${{ env.ARMBIAN_BOARD }} RELEASE=${{ env.ARMBIAN_RELEASE }} BRANCH=current \
-                            BUILD_MINIMAL=no BUILD_DESKTOP=yes HOST=armbian KERNEL_ONLY=no KERNEL_CONFIGURE=no \
+                            BUILD_MINIMAL=no BUILD_DESKTOP=no HOST=armbian KERNEL_ONLY=no KERNEL_CONFIGURE=no \
                             CLEAN_LEVEL=make,debs COMPRESS_OUTPUTIMAGE=sha
           echo "::set-output name=status::success"
 
